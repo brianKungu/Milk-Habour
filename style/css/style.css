@@ -1,0 +1,42 @@
+.container{
+    display: block;
+    
+}
+
+.container-fluid{
+    margin-top: 50px;
+}
+
+
+label{
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type=text],select{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input[type=submit],select{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    border: none;
+    border-radius:4px;
+}
+
+input[type=submit]:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.table,td,tr,th{
+    border: 1px solid black;
+}
+
+.table{
+    margin:0 auto;
+}
